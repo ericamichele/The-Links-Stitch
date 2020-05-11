@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Project Title</title>
+</head>
+<body>
+	<header class="cd-header">
+		<h1>this is our incredible amazing wonderful collective project</h1>
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">all</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">book</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">print</a></li>
+                    <li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3">studio equipment</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul>
+				<a href="https://drive.google.com/open?id=1eOzEUrMAQXIuE-Abg2kAfVH5Y2HX9CGlPKxYisd4qhc">
+                    <li class="mix color-1 check1 check2 check3 check4" ><img src="img/img-1.jpg" alt="Dos-à-Dos" ></li></a>
+				<a href="https://drive.google.com/open?id=1ga0mmwM5b91KEi_IlPr1F4TMQ8ctmLh7CJRQ6lUa33Q">
+                    <li class="mix color-1 check1 check2 check3 check4"><img src="img/img-2.jpg" alt="One Sheet Book"></li></a>
+				<a href="https://drive.google.com/open?id=1qr140UhBYaiRADAxya1JBHqhZ5-4XqU9KznwJur9w7g">
+                    <li class="mix color-1 check1 check2 check3 check4"><img src="img/img-3.jpg" alt="Single Pamphlet Stitch"></li></a>
+				<a href="howtos/DIY Printmaking Amy Fleming.pdf">
+                    <li class="mix color-3"><img src="img/img-4.jpg" alt="DIY Printmaking Equipment"></li></a>
+				<a href="https://docs.google.com/document/d/1CRPoyC5uWSwxc_x38CO8bCKSgZVHnBn_Ru-0a7BvOEw/edit?usp=sharing">
+                    <li class="mix color-2 check1 check2 check5 check6 check7"><img src="img/img-5.jpg" alt="Printing with Plants"></li></a>
+				<a href="https://docs.google.com/document/d/10S2VedCCspDRYxRJ2yXEpf_4CVvI7migTZAgQ-H_Jpw/edit?usp=sharing">
+                    <li class="mix color-2 check1 check2 check5 check7 check8 check9"><img src="img/img-6.jpg" alt="Vegetable Stamps"></li></a>
+				<a href="https://docs.google.com/document/d/1v7o9Ydov8hAprO5Iq2SQeOY3E6Am20ASbLmoy7rl3As/edit?usp=sharing">
+                    <li class="mix color-2 check1 check2 check6"><img src="img/img-7.jpg" alt="Pressing Flowers"></li></a>
+				<a href="https://docs.google.com/document/d/156s2xy5HzDQoB4xQ-F76jfuu6xIjjH9J4brIq419IcY/edit?usp=sharing">
+                    <li class="mix color-2 check1 check2 check7 check10"><img src="img/img-8.jpg" alt="Wheatpasting 101"></li></a>
+				<li class="mix color-2 check5"><img src="img/img-9.jpg" alt="Image 9"></li>
+				<li class="mix color-3 check6"><img src="img/img-10.jpg" alt="Image 10"></li>
+				<li class="mix color-3 check4"><img src="img/img-11.jpg" alt="Image 11"></li>
+				<li class="mix color-3 check3"><img src="img/img-12.jpg" alt="Image 12"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+				 <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>materials</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">text weight paper</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">cover weight paper</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">scissors</label>
+						</li>
+                        
+                        <li>
+							<input class="filter" data-filter=".check4" type="checkbox" id="checkbox4">
+							<label class="checkbox-label" for="checkbox4">needle and thread</label>
+						</li>
+                        
+                        <li>
+							<input class="filter" data-filter=".check5" type="checkbox" id="checkbox5">
+							<label class="checkbox-label" for="checkbox5">ink / paint</label>
+						</li>
+                        
+                        <li>
+							<input class="filter" data-filter=".check6" type="checkbox" id="checkbox6">
+							<label class="checkbox-label" for="checkbox6">plants / flowers</label>
+						</li>
+                        
+                        <li>
+							<input class="filter" data-filter=".check7" type="checkbox" id="checkbox7">
+							<label class="checkbox-label" for="checkbox7">sponge / brush</label>
+						</li>
+                        
+                        <li>
+							<input class="filter" data-filter=".check8" type="checkbox" id="checkbox8">
+							<label class="checkbox-label" for="checkbox8">knife / box cutter</label>
+						</li>
+                        
+                         <li>
+							<input class="filter" data-filter=".check9" type="checkbox" id="checkbox9">
+							<label class="checkbox-label" for="checkbox9">potato</label>
+						</li>
+                        
+                         <li>
+							<input class="filter" data-filter=".check10" type="checkbox" id="checkbox10">
+							<label class="checkbox-label" for="checkbox10">wheat paste</label>
+						</li>
+                        
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+	</main> <!-- cd-main-content -->
+        
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
